@@ -1,19 +1,5 @@
 function Practical10b
-% Machine Vision Neural Network tutorial---Part 2
-% Author: Daniel E. Worrall, 3 Dec 2016
-%
-% You are going to write a script to run a 7-layer autoencoder. We have
-% supplied the structure and the pre-trained weights for the autoencoder to
-% run out-of-the-box. The model is:
-%
-% input --> encoder --> latent_code --> decoder --> reconstruction
-%
-% Start by running this script and see what the output gives. You should
-% see that you can generate images that look like numbers by generating
-% random latent codes from a 500D standard Gaussian and passing these vectors
-% through the decoder. Your task will be to find the subspace of the latent
-% code, such that you can smoothly interpolate between numbers in
-% latent space.
+% Machine Vision Neural Network---Part 2
 
 %% Load data and add files
 clear
