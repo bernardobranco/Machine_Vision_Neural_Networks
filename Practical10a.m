@@ -1,18 +1,5 @@
-% Machine Vision Neural Network tutorial---Part 1
-% 
-% You are going to train a small multilayer perceptron
-% (MLP) to classify some toy data points in a 2D-space. 
-% 
-% The multilayer perceptron is implemented in "mlp.m" file.
-% TODO 0: Please read the code of "mlp.m" before proceeding.
+% Machine Vision Neural Network --- Part 1
 
-% Certain methods (functions) are not implemented: 
-%     layers/relu.m
-%     layers/affine_layer.m
-%     layeres/cross_entropy_softmax_layer.m
-% Your task is to complete the missing code.
-% Below, the functions are tested to ensure that the 
-% implementation is correct.
 
 % Make layer files callable.
 addpath('layers')
